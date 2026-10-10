@@ -7,7 +7,7 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(158, 218, 221);
+    background-color: rgb(236, 232, 165);
     display: grid;
     place-content: center;
 }
@@ -15,7 +15,7 @@ body{
 main{
     text-align: center;
 
-    color: rgb(13, 44, 112);
+    color: rgb(32, 1, 14);
 }
 
 .pato, .bolo{
@@ -36,14 +36,14 @@ main{
 }
 
 .main{
-    background-color: rgb(158, 218, 221);
+    background-color: rgb(236, 232, 165);
     padding: 20px;
     border-radius:  5%;
 }
 
 .video-parabens{
     width: 70vw;
-    height: auto;
+    height: 70vh;
 }
 
 p{
