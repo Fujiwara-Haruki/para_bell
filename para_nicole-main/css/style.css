@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(158, 218, 221);
+    display: grid;
+    place-content: center;
+}
+
+main{
+    text-align: center;
+
+    color: rgb(13, 44, 112);
+}
+
+.pato, .bolo{
+    width:50vw;
+    max-width: 450px;
+}
+
+.pato:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+.body{
+    background-image: url(../assets/fundo-aniversario.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    background-color: rgb(158, 218, 221);
+    padding: 20px;
+    border-radius:  5%;
+}
+
+.video-parabens{
+    width: 70vw;
+    height: auto;
+}
+
+p{
+    text-align: justify;
+    margin: 5%
+}
+
+@media (width < 600px) {
+    main{
+        margin: 8%;
+    }
+
+    .main{
+        margin: 1% 8%;
+    }
+}
+
+@media (width > 600px){
+    .main{
+        margin: 1% 8%;
+    }
+}
